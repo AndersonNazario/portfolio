@@ -1,0 +1,98 @@
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+header::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../../icons/3ponto/three-dots_icon-icons.com_53865.png');
+    cursor: pointer;
+}
+
+header .foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+header .titulo {
+    text-align: center;
+}
+
+.informacao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.informacao p {
+    font-size: 1.1rem;
+    margin: .3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.informacao p::before {
+    content: '';
+    display: inline-block;
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-right: 1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.informacao .job::before {
+    background-image: url('../../icons/notebook/notebook-portable-computer.png');
+}
+
+.informacao .local::before {
+    background-image: url('../../icons/localizacao/kisspng-globe-openstreetmap-location-5b58cd6c87b736.0298870815325464125559.png');
+}
+
+.informacao .telefone::before {
+    background-image: url('../../icons/telefone/telephone-number.png');
+}
+
+.informacao .email::before {
+    background-image: url('../../icons/email/email_3178165.png');
+}
+
+@media only screen and (min-width: 768px) {
+
+    header {
+       display: grid;
+       grid-template-areas: 
+        "foto  titulo"
+        "foto  informacao"
+       ;
+    }
+
+    header .foto {
+        grid-area: foto;
+        margin: 0 auto;
+    }
+
+    header .titulo {
+        grid-area: titulo;
+        text-align: start;
+        max-width: 300px;
+    }
+    header .informacao {
+        grid-area: informacao;
+    }
+}
