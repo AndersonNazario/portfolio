@@ -9,39 +9,39 @@
       "hardSkills": [
         {
           "name": "Nodejs",
-          "logo": "https://github.com/AndersonNazario/portfolio/blob/main/icons/proficional/nodejs.png"
+          "logo": "https://raw.githubusercontent.com/AndersonNazario/portfolio/main/icons/proficional/css.png"
         },
         {
           "name": "JavaScript",
-          "logo": "https://github.com/AndersonNazario/portfolio/blob/main/icons/proficional/javascript.png"
+          "logo": "https://raw.githubusercontent.com/AndersonNazario/portfolio/main/icons/proficional/css.png"
         },
         {
           "name": "Css",
-          "logo": "https://github.com/AndersonNazario/portfolio/blob/main/icons/proficional/javascript.png"
+          "logo": "https://raw.githubusercontent.com/AndersonNazario/portfolio/main/icons/proficional/css.png"
         },
         {
           "name": "Html",
-          "logo": "https://github.com/AndersonNazario/portfolio/blob/main/icons/proficional/javascript.png"
+          "logo": "https://raw.githubusercontent.com/AndersonNazario/portfolio/main/icons/proficional/nodejs.png"
         },
         {
           "name": "Github",
-          "logo": "https://github.com/AndersonNazario/portfolio/blob/main/icons/proficional/javascript.png"
+          "logo": "https://raw.githubusercontent.com/AndersonNazario/portfolio/main/icons/proficional/github.png"
         },
         {
           "name": "Gestão de TI",
-          "logo": "https://github.com/AndersonNazario/portfolio/blob/main/icons/proficional/javascript.png"
+          "logo": "https://raw.githubusercontent.com/AndersonNazario/portfolio/main/icons/proficional/gastaoTi.png"
         },
         {
           "name": "Segurança da Informação",
-          "logo": "https://github.com/AndersonNazario/portfolio/blob/main/icons/proficional/javascript.png"
+          "logo": "https://raw.githubusercontent.com/AndersonNazario/portfolio/main/icons/proficional/seguranca.png"
         },
         {
           "name": "Mysql",
-          "logo": "https://github.com/AndersonNazario/portfolio/blob/main/icons/proficional/javascript.png"
+          "logo": "https://raw.githubusercontent.com/AndersonNazario/portfolio/main/icons/proficional/mysql.png"
         },
         {
           "name": "Postgresql",
-          "logo": "https://github.com/AndersonNazario/portfolio/blob/main/icons/proficional/javascript.png"
+          "logo": "https://raw.githubusercontent.com/AndersonNazario/portfolio/main/icons/proficional/postgresql.png"
         }
       ],
       "softSkills": [
