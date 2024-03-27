@@ -26,23 +26,23 @@
     <main class="main">
         <header>
 
-            <img src="https://media.licdn.com/dms/image/D4D03AQH8p9Qfw2Ia3Q/profile-displayphoto-shrink_800_800/0/1710454926216?e=1715817600&v=beta&t=_EYdXocwIfR0WLnmQmIKbrmzKQsuKaSJBjpJK200l5w" alt="Foto de perfiu do Linkedin" class="foto">
+            <img src="https://media.licdn.com/dms/image/D4D03AQH8p9Qfw2Ia3Q/profile-displayphoto-shrink_800_800/0/1710454926216?e=1715817600&v=beta&t=_EYdXocwIfR0WLnmQmIKbrmzKQsuKaSJBjpJK200l5w" alt="Foto de perfil do Linkedin" class="foto" id="perfilFoto">
 
-            <h2 class="titulo">Olá, <br>eu sou Anderson A. Nazario</h2>  
+            <h2 class="titulo">Olá, <br>eu sou <span id="profile.name">Carregando ....</span></h2>  
 
             <div class="informacao">
-                <p class="job">Junior Developer</p>
-                <p class="local">São Paulo - BR</p>
+                <p class="job" id="perfilProficao">Carregando...</p>
+                <p class="local" id="perfilCidade">Carregando....</p>
                 <p class="telefone">
-                    <a href="tel: 5511940480261" target="_blank">(11) 9 940480261</a></p>
+                    <a href="tel: 5511940480261" target="_blank" id="perfilTelefone">Carregando....</a></p>
                 <p class="email">
-                    <a href="mailto: anderson.angelo@gmail.com" target="_blank">anderson.angelo@gmail.com</a>
+                    <a href="mailto: anderson.angelo@gmail.com" target="_blank" id="perfilEmail">Carregando...</a>
                 </p>
             </div>
 
         </header>
 
-        <section class="acordeon open">
+        <section class="acordeon">
 
             <button class="acionar" type="button">Skills</button>
     
@@ -50,24 +50,22 @@
                 <ul class="skills">
                     <section class="hProfissionais">
                         <h3>Habilidades profissionais: </h3>
-                        <ul>
-                            <li><img src="./icons/proficional/javascript.png" alt="javasCript" title="javaScript"></li>
-                            <li><img src="./icons/proficional/css.png" alt="css" title="Css"></li>
-                            <li><img src="./icons/proficional/html.png" alt="html" title="Html"></li>
+                        <ul id="skillsProfissionais">
+                            <li><img src="./icons/profissional/javascript.png" alt="javasCript" title="javaScript"></li>
+                            <li><img src="./icons/profissional/css.png" alt="css" title="Css"></li>
+                            <li><img src="./icons/profissional/html.png" alt="html" title="Html"></li>
                             <li><img src="./icons/git/github_.png" alt="git" title="Github"></li>
-                            <li><img src="./icons/proficional/gestaoTi.png" alt="gestaoTI" title="Gestão de TI"></li>
-                            <li><img src="./icons/proficional/seguranca.png" alt="segurancaDainformacao" title="Segurança da Informação"></li>
+                            <li><img src="./icons/profissional/gestaoTi.png" alt="gestaoTI" title="Gestão de TI"></li>
+                            <li><img src="./icons/profissional/seguranca.png" alt="segurancaDainformacao" title="Segurança da Informação"></li>
                         </ul>
                     </section>
 
                     <section class="hPesssoal">
                         <h3>Habilidades pessoais: </h3>
-                        <ul>
-                            <li>Trabalho em equipe</li>
-                            <li>Fácil adaptação a mudança</li>
-                            <li>Resolução de problemas</li>
-                            <li>Aprendizagem rápida</li>
-                            <li>Mais alguma coisa</li>
+                        <ul id="skillsPessoaiss">
+                            <li>Carregando ...</li>
+                            <li>Carregando ...</li>
+                            <li>Carregando ...</li>
                         </ul>
                     </section>
                 </ul>
@@ -150,5 +148,7 @@
     </main>
 
     <script src="./js/acordeon.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
