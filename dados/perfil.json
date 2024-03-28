@@ -32,16 +32,16 @@
         "logo": "https://raw.githubusercontent.com/AndersonNazario/portfolio/main/icons/profissional/gestaoTi.png"
       },
       {
+        "name": "Postgresql",
+        "logo": "https://raw.githubusercontent.com/AndersonNazario/portfolio/main/icons/profissional/postgresql.png"
+      },
+      {
         "name": "Segurança da Informação",
         "logo": "https://raw.githubusercontent.com/AndersonNazario/portfolio/main/icons/profissional/seguranca.png"
       },
       {
         "name": "Mysql",
         "logo": "https://raw.githubusercontent.com/AndersonNazario/portfolio/main/icons/profissional/mysql.png"
-      },
-      {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/AndersonNazario/portfolio/main/icons/profissional/postgresql.png"
       }
     ],
     "softSkills": [
@@ -60,30 +60,35 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Curso Ministrado na DIO para a criação de um jogo da memória",
+      "url": "https://github.com/AndersonNazario/jogo-memoria",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Projeto de uma página para games Jogo Social",
+      "url": "https://github.com/AndersonNazario/SocialGame",
+      "github": true
+    },
+    {
+      "name": "Criação do meu primeiro portfolio",
+      "url": "https://github.com/AndersonNazario/Portfolio-Mini?tab=readme-ov-file",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Analista de suporte JR / Sitel",
+      "period": "2021 - até o momento",
+      "description": "Suporte técnico via chat para computadores, notebook e configurações dos equipamentos Dell No primeiro contato é feita a analisar para identificar o real erro do cliente. Ao identificar o erro são passados os passos a passo para que o erro seja solucionado, se necessário é feito o acesso remoto para alcançar a solução do erro. Em caso que é identificado um erro de hardware é a aberto um chamado técnico para ser trocado as peças com erro (no chamado é encaminhado um resumo do caso informado as peças que tem que ser trocadas). São utilizados alguns programas internos e artigos de solução de problemas como auxílio."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "name": "Estagio / Querido Odontologia",
+      "period": "2019 - 2019",
+      "description": "Tinha como obrigação fazer atualização e manutenção do site da empresa. Fazia o Marketing digital com o intuito de trazer novos lides. E tirar dúvidas dos usuários que navegavam pelo site e seguidores do Instagram."
     },
     {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
+      "name": "BackOffice / Tivit",
+      "period": "2012 - 2014",
       "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
     }
   ]
