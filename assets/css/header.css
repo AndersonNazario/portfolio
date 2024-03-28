@@ -5,7 +5,7 @@ header {
     align-items: center;
     position: relative;
 }
-
+/*
 header::after {
     content: '';
     display: inline-block;
@@ -19,10 +19,25 @@ header::after {
     background-image: url('../../icons/3ponto/three-dots_icon-icons.com_53865.png');
     cursor: pointer;
 }
+*/
+
+.gitHugInicial {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../../icons/git/github_.png');
+    cursor: pointer;
+}
 
 header .foto {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     border-radius: 50%;
 }
 
@@ -94,5 +109,20 @@ header .titulo {
     }
     header .informacao {
         grid-area: informacao;
+    }
+}
+
+@media only screen and (max-width: 342px) {
+    .email a{
+        font-size: .6rem;
+    }
+    header {
+        align-items: start;
+        text-transform: uppercase;
+    }
+    header .foto {
+        max-width: 60%;
+        max-height: 60%;
+        border-radius: 50%;
     }
 }

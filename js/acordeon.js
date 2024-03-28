@@ -12,3 +12,4 @@ acordeonEAcionar.forEach((acionar) => {
         }
     })
 })
+
